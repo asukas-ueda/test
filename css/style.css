@@ -1,0 +1,34 @@
+#viewer {
+    margin: 0 auto;
+    width: 600px;
+    height: 400px;
+    text-align: left;
+    overflow: hidden;
+    position: relative;
+}
+
+#viewer img {
+    top: 0;
+    left: 0;
+    position: absolute;
+}
+
+.demo {
+    max-width: 80%;
+    margin: 0 auto;
+    padding-top: 500px;
+}
+.demo img {
+    float: left;
+}
+.demo p {
+    float: left;
+    text-align: center;
+}
+
+/*clearfixの設定*/
+.clearfix::after{
+    content: "";
+    display: block;
+    clear: both;
+}
