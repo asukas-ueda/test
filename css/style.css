@@ -5,6 +5,7 @@
     text-align: left;
     overflow: hidden;
     position: relative;
+    padding-bottom: 500px;
 }
 
 #viewer img {
@@ -16,7 +17,6 @@
 .demo {
     max-width: 80%;
     margin: 0 auto;
-    padding-top: 500px;
 }
 .demo img {
     float: left;

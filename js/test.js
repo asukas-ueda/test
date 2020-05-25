@@ -11,4 +11,6 @@ $(function(){
     },switchDelay);
 });
 
-ScrollReveal().reveal('.demo');
+$(function(){
+    ScrollReveal().reveal('.demo');
+});
